@@ -1648,3 +1648,35 @@ a {
   grid-template-rows: auto;
 }
 
+.th-modal {
+  display: none;
+}
+
+.th-button-primary-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 44px;
+  padding-right: 72px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #0f62fe;
+}
+
+.th-modal-link-2 {
+  display: inline-block;
+  margin-right: 32px;
+  color: #0f62fe;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+.th-button-ghost-2 {
+  padding-right: 72px;
+  background-color: transparent;
+  color: #0f62fe;
+}
+
