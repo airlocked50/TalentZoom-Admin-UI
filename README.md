@@ -1,1 +1,0 @@
-talentzoom-admin-ui
