@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Fri Oct 01 2021 03:10:57 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Thu Oct 07 2021 14:31:29 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="615663aa7d4fe281df25bee5" data-wf-site="614b273882c5c765f54f7e14">
 <head>
   <meta charset="utf-8">
@@ -22,8 +22,8 @@
   <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="th-navbar w-nav">
     <a href="#" class="th-navbar-brand w-nav-brand"><img src="images/logo.svg" loading="lazy" alt="" class="th-navbar-logo"></a>
     <nav role="navigation" class="th-navbar-menu w-nav-menu">
-      <div class="th-navbar-profile"><img src="images/33.jpg" loading="lazy" alt="" class="th-navbar-profile-icon">
-        <div>James Thompson</div>
+      <div class="th-navbar-profile">
+        <div class="th-navbar-profile-name">James Thompson</div><img src="images/33.jpg" loading="lazy" alt="" class="th-navbar-profile-icon">
       </div>
     </nav>
     <div class="w-nav-button">
@@ -32,7 +32,7 @@
   </div>
   <div class="th-register wf-section">
     <div class="th-register-box">
-      <div data-duration-in="300" data-duration-out="100" class="th-register-tabs w-tabs">
+      <div data-duration-in="300" data-duration-out="100" data-current="Tab 1" data-easing="ease" class="th-register-tabs w-tabs">
         <div class="th-register-tabs-menu w-tab-menu">
           <a data-w-tab="Tab 1" class="th-register-tabs-menu-tab w-inline-block w-tab-link w--current">
             <div class="th-register-tabs-menu-title">Account</div>
@@ -98,7 +98,10 @@
                   </div><label for="name-4" class="th-settings-helper">What cities are you hiring in? We&#x27;ll match you with job seekers who live in these areas. You can also select &#x27;remote&#x27; to enable matches from anywhere.</label>
                   <div class="th-input-block"><label for="name-4" class="th-settings-label">Roles</label>
                     <a href="#" class="th-button-input w-button">Add</a><input type="text" class="th-input w-input" maxlength="256" name="name-2" data-name="Name 2" placeholder="e.g. Full Stack Developer" id="name-2">
-                  </div><label for="name-4" class="th-settings-helper">What type of candidates are you looking to hire? Add all aplicable titles that are relevant for your search.</label>
+                  </div><label for="name-4" class="th-settings-helper">What type of candidates are you looking to hire? Add all aplicable titles that are relevant for your search.</label><label for="email" class="th-settings-label">Select your plan</label><select id="field-3" name="field-3" class="th-select w-select">
+                    <option value="">Classic</option>
+                    <option value="First">Membership</option>
+                  </select>
                 </form>
                 <div class="w-form-done">
                   <div>Thank you! Your submission has been received!</div>

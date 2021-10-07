@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Fri Oct 01 2021 03:10:57 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Thu Oct 07 2021 14:31:29 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="615663aa7d4fe26ffd25bee1" data-wf-site="614b273882c5c765f54f7e14">
 <head>
   <meta charset="utf-8">
@@ -22,8 +22,8 @@
   <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="th-navbar w-nav">
     <a href="#" class="th-navbar-brand w-nav-brand"><img src="../images/logo.svg" loading="lazy" alt="" class="th-navbar-logo"></a>
     <nav role="navigation" class="th-navbar-menu w-nav-menu">
-      <div class="th-navbar-profile"><img src="../images/33.jpg" loading="lazy" alt="" class="th-navbar-profile-icon">
-        <div>James Thompson</div>
+      <div class="th-navbar-profile">
+        <div class="th-navbar-profile-name">James Thompson</div><img src="../images/33.jpg" loading="lazy" alt="" class="th-navbar-profile-icon">
       </div>
     </nav>
     <div class="w-nav-button">
@@ -37,7 +37,10 @@
     <a href="../employer/interviews.html" class="th-menu-link w-inline-block"><img src="../images/share-knowledge.svg" loading="lazy" alt="" class="th-menu-link-icon">
       <div id="interviews">Interviews<br></div>
     </a>
-    <a data-w-id="c47df391-6927-f084-a9e6-35e1253934f9" href="#" class="th-menu-link w-inline-block"><img src="../images/chevron--down.svg" loading="lazy" data-w-id="c47df391-6927-f084-a9e6-35e1253934fa" id="positions-icon" alt="" class="th-menu-link-icon th-icon-positions">
+    <a href="../employer/candidates.html" class="th-menu-link w-inline-block"><img src="../images/events.svg" loading="lazy" alt="" class="th-menu-link-icon">
+      <div id="interviews">Candidates<br></div>
+    </a>
+    <a data-w-id="c47df391-6927-f084-a9e6-35e1253934f9" href="#" class="th-menu-link w-inline-block"><img src="../images/chevron--up.svg" loading="lazy" data-w-id="c47df391-6927-f084-a9e6-35e1253934fa" id="positions-icon" alt="" class="th-menu-link-icon th-icon-positions">
       <div>Positions</div>
       <div data-w-id="c47df391-6927-f084-a9e6-35e1253934fd" class="th-button-iconly th-add-position"><img src="../images/add.svg" loading="lazy" alt="" class="th-button-iconly-icon"></div>
     </a>
@@ -51,13 +54,22 @@
           <div>Oops! Something went wrong while submitting the form.</div>
         </div>
       </div>
-      <a href="../employer/positions/front-end-developers.html" class="th-menu-positions w-inline-block">
-        <div class="th-menu-positions-link">
-          <div class="th-menu-positions-link-title">Front-End Developer</div>
-          <div class="th-menu-positions-link-subtitle">New York, NY</div>
-        </div>
-        <div data-w-id="c47df391-6927-f084-a9e6-35e12539350f" class="th-button-iconly th-button-filter"><img src="../images/filter.svg" loading="lazy" alt="" class="th-button-iconly-icon"></div>
-      </a>
+      <div id="th-positions-menu" class="th-positions-box">
+        <a href="../employer/positions/front-end-developers.html" class="th-menu-positions w-inline-block">
+          <div class="th-menu-positions-link">
+            <div class="th-menu-positions-link-title">Front-End Developer</div>
+            <div class="th-menu-positions-link-subtitle">New York, NY</div>
+          </div>
+          <div data-w-id="c47df391-6927-f084-a9e6-35e12539350f" class="th-button-iconly th-button-filter"><img src="../images/filter.svg" loading="lazy" alt="" class="th-button-iconly-icon"></div>
+        </a>
+        <a href="#" class="th-menu-positions w-inline-block">
+          <div class="th-menu-positions-link">
+            <div class="th-menu-positions-link-title">Back-End Developer</div>
+            <div class="th-menu-positions-link-subtitle">New York, NY</div>
+          </div>
+          <div data-w-id="725ec16d-cc25-5c45-6519-b730e5f46d68" class="th-button-iconly th-button-filter"><img src="../images/filter.svg" loading="lazy" alt="" class="th-button-iconly-icon"></div>
+        </a>
+      </div>
     </div>
     <a href="../employer/settings.html" class="th-menu-link w-inline-block"><img src="../images/settings.svg" loading="lazy" alt="" class="th-menu-link-icon">
       <div id="interviews">Settings<br></div>

@@ -1,3 +1,15 @@
+.w-layout-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
 .w-checkbox {
   display: block;
   margin-bottom: 5px;
@@ -75,18 +87,6 @@
 
 .w-checkbox-input--inputType-custom.w--redirected-focus {
   box-shadow: 0px 0px 3px 1px #3898ec;
-}
-
-.w-layout-grid {
-  display: -ms-grid;
-  display: grid;
-  grid-auto-columns: 1fr;
-  -ms-grid-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: auto auto;
-  grid-template-rows: auto auto;
-  grid-row-gap: 16px;
-  grid-column-gap: 16px;
 }
 
 .w-form-formradioinput--inputType-custom {
@@ -348,6 +348,10 @@ a {
   max-width: 720px;
 }
 
+.th-form.th-form-hide {
+  width: 100%;
+}
+
 .th-menu {
   position: -webkit-sticky;
   position: sticky;
@@ -439,6 +443,7 @@ a {
 .th-admin-paragraph {
   margin-bottom: 24px;
   font-size: 18px;
+  font-weight: 300;
 }
 
 .grid {
@@ -570,6 +575,11 @@ a {
   margin-bottom: 4px;
   font-size: 15px;
   font-weight: 500;
+  cursor: pointer;
+}
+
+.th-interviews-profile-name:hover {
+  text-decoration: underline;
 }
 
 .th-interviews-profile-role {
@@ -727,6 +737,10 @@ a {
   align-items: center;
   color: #555;
   text-decoration: none;
+}
+
+.th-interviews-schedule-link:hover {
+  text-decoration: underline;
 }
 
 .th-interviews-schedule-link-icon {
@@ -1274,7 +1288,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  max-width: 980px;
+  max-width: 1240px;
   margin-top: 32px;
   margin-bottom: 32px;
   -webkit-box-pack: end;
@@ -1508,8 +1522,6 @@ a {
   display: flex;
   height: 40px;
   margin-right: 16px;
-  padding-right: 16px;
-  padding-left: 0px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1519,13 +1531,12 @@ a {
   -ms-flex-align: center;
   align-items: center;
   background-color: #f5f5f5;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 300;
 }
 
 .th-navbar-profile-icon {
   height: 100%;
-  margin-right: 16px;
 }
 
 .th-admin-top-actions {
@@ -1664,5 +1675,26 @@ a {
   padding-right: 72px;
   background-color: transparent;
   color: #0f62fe;
+}
+
+.th-candidates {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1240px;
+}
+
+.th-navbar-profile-name {
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.th-modal-company {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-color: #f5f5f5;
 }
 
